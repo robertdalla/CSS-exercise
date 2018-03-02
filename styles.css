@@ -1,0 +1,154 @@
+/*! assessment - v1.1.0 (2016-07-22) - Robert Dalla <robert.dalla@gmail.com> */
+body {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+body .container {
+  position: relative;
+  top: 167px;
+  margin-left: 167px;
+  margin-right: 167px;
+  width: auto;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+}
+body .container section {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  flex-direction: row;
+  /* populates from left to right */
+}
+body .container section .avatar {
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 50%;
+  background-color: #0083cf;
+  color: white;
+}
+body .container section .main {
+  position: relative;
+  width: 60%;
+  margin-top: 64px;
+  margin-left: 48px;
+}
+body .container section .main .card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* populates from left to right */
+}
+body .container section .main .card .pied-piper {
+  font-size: 30px;
+  width: 70px;
+  height: 55px;
+  padding-left: 20px;
+  padding-top: 25px;
+  margin: auto;
+}
+body .container section .main .card .pied-piper:before {
+  content: "\f2ae";
+}
+body .container section .main .card .content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  width: 100%;
+  height: auto;
+  border-right: 1px solid #e2e2e2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body .container section .main .card .content header {
+  font-size: 1.6em;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body .container section .main .card .content .sub-header {
+  font-size: 1.2em;
+  font-weight: normal;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+}
+body .container section .secondary {
+  position: relative;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* populates from top to bottom */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+body .container section .secondary .card {
+  width: auto;
+}
+body .container section .secondary .card:first-child {
+  margin-bottom: 20px;
+}
+body .container section .secondary .card .paper-plane {
+  font-size: 16px;
+  width: 36px;
+  height: 32px;
+  padding-left: 14px;
+  padding-top: 18px;
+  margin: auto;
+}
+body .container section .secondary .card .paper-plane:before {
+  content: "\f1d8";
+}
+body .container section .secondary .card .child {
+  font-size: 16px;
+  width: 31px;
+  height: 34px;
+  padding-left: 19px;
+  padding-top: 16px;
+  margin: auto;
+}
+body .container section .secondary .card .child:before {
+  content: "\f1ae";
+}
+body .container section .secondary .card .content header {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+body .container section .secondary .card .content .sub-header {
+  display: none;
+}
+body .container footer {
+  position: relative;
+  width: auto;
+  height: 90px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  /* populates from top to bottom */
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+body .container footer .group {
+  display: flex;
+  flex-direction: column;
+  /* populates from top to bottom */
+}
